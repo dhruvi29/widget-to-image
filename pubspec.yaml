@@ -30,7 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  widgets_to_image:
+  # widgets_to_image:
   path_provider:
   flutter_wallpaper_manager:
 
