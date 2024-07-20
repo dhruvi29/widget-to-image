@@ -1,16 +1,13 @@
-# todo
+# widget-to-image
 
-A new Flutter project.
+A Flutter utility to convert any widget into image using Render Object. 
+
+> This example is to take down notes and set it as a wallpaper
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Write your own `CaptureWidget` in captureWidget.dart. 
+2. On clicking the `check` icon, all that is visibly part of your CaptureWidget will be returned to you as a BytesList
+3. Here, I have further used this BytesList to set it as wallpaper of my device. 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> Essentially taking a screeshot of your widgets. It can be as specific a widget you want. Need not be entire screen. 
